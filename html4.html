@@ -15,11 +15,30 @@
     display:flex;
     height: 80vh;
 }
-.left{
+
+.centro{ 
+        border: 1px solid black; 
+        width:60%;
+}
+
+.derecha{ 
+        border: 1px solid black; 
+        width:20%;
+}
+
+.izquierda{ 
+        border: 1px solid black; 
+        width:20%;
+}
+
+
+.abajo{ 
     background-color: paleturquoise;
     height: 10vh;
     color:black;
     border: 1px solid black;
+    flex: 30%;
+   
     
     
 }
@@ -33,10 +52,22 @@
 </div>
 
 <div class="medio">
-    <p> Esto es el cuerpo </p>
-</div> 
+    
+    <div class="izquierda">
+    <p>izquierda</p>
+    </div>
 
-<div class="left">
+    <div class="centro">
+    <p>centro</p>
+    </div>
+
+    <div class="derecha">
+    <p>derecha</p>
+    </div>
+</div>
+
+
+<div class="abajo">
     <p> Esto es el footer </p>
 </div>
 
